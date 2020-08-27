@@ -15,7 +15,7 @@ to try it out.
 
 
 ## Components
-** Most files were never uploaded here (30 files in total and only 10 files here) since a lot of the files are used to encrypt/decrypt messages and also hash and encrypt the passwords which aren't appropriate to publish online. **
+_Most files were never uploaded here (30 files in total and only 10 files here) since a lot of the files are used to encrypt/decrypt messages and also hash and encrypt the passwords which aren't appropriate to publish online._
 
 `login.php` is the login/registration page.
 
