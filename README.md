@@ -36,13 +36,13 @@ _Most files were never uploaded here (30 files in total and only 10 files here) 
 
 ## Big Changes
 
-9/08/2020
+####9/08/2020
 I made a log in and sign up page just to try out the bootstrap CSS framework. It was messy but I didn't really have the idea for FreeSpeech yet.
 
-14/08/2020
+####14/08/2020
 I built WorldChat on the homepage, a instant chat for every users logged in. The name of the website was WorldChat at the time.
 
-15/08/2020
+####15/08/2020
 I hashed the password with a salt in the database so that even I don't have access to the passwords of the user to give the users privacy and so that if the database is somehow hacked, that the hackers don't see the passwords in plaintext.
 
 20/08/2020
