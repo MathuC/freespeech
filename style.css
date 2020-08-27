@@ -1,0 +1,343 @@
+body{
+	max-height:100%;
+	background: linear-gradient(to top,rgba(210,210,210,1) , rgba(20,20,20,0.55));
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: white; /*overrites bootstrap color which is dark grey */
+	width: auto;
+	margin:0px;
+}
+
+h1{
+	font-family:Courier; 
+	font-size: 40px;
+	margin-left:5px;
+	margin-top:0px;
+}
+
+h3{
+	font-family:Courier; 
+	font-size: 30px;
+	margin-top:0px;
+}
+
+h4{
+	font-family:Courier; 
+	font-size: 25px;
+	margin:10px;
+	color:#404040;
+}
+
+p {
+	font-family: Courier ; 
+	font-size: 13px;
+	line-height:12px;
+	margin-bottom:4px;
+	margin-left:0px;
+}
+
+/*So welcome stays together when screen is small and does not separate in two and stick to search*/
+#welcome{
+	display:block;
+	width:300px;
+}
+
+#logintitle {
+	font-weight:normal;
+	font-family: Courier;
+	margin-top:20px;
+
+}
+
+#loginsubtitle {
+	margin-top:20px;
+	font-family: Courier;
+	font-size:16px;
+	line-height: 14px; 
+	margin-top:0px;
+	margin-bottom:2px;"
+}
+
+
+
+/*form and input of the post form where they write messages */
+#form {	
+
+}
+
+#input{
+	padding:8px;
+	font-size: 16px;
+	max-width:100%;
+	min-width:100%;
+	margin-top:15px;
+	border-style: solid;
+	border-radius: 50px;
+	background-color: transparent; 
+	outline:0;
+}
+
+
+
+
+
+#edit{
+	padding:8px;
+	font-size: 16px;
+	margin:5px;
+	padding:10px;
+	border-style: solid;
+	border-radius: 15px;
+	background-color: transparent; 
+	outline:0;
+}
+
+
+
+#bigEdit{
+	font-family:Arial;
+	padding:8px;
+	font-size: 16px;
+	width:370px;
+	max-width:90%;
+	height:180px;
+	padding:10px;
+	margin:5px;
+	border-style: solid;
+	border-radius: 15px;
+	background-color: transparent; 
+	outline:0;
+}
+
+
+
+
+
+
+
+
+#worldchat{
+	font-family:Courier; 
+	font-size: 50px;
+	line-height:40px;
+	margin-top:10px;
+	display:inline;
+}
+
+#searchTitle{
+	font-weight: normal;
+	font-family:Courier; 
+	font-size: 40px;
+	line-height:40px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#message {
+	overflow-wrap: break-word; 
+	font-family:Arial;	
+	font-size: 16px;
+	line-height:30px; 
+	margin-bottom:0px;	
+	margin-top:0px	
+}
+
+
+
+
+
+#writeHere {
+	font-family: Arial; 
+	font-weight: bold;
+	font-size: 20px;
+	line-height:20px;
+}
+
+
+
+
+
+
+
+
+#search {
+	margin-bottom:0px;
+	margin-left:3px;
+	float:right;
+	font-family: Arial;
+	font-size:16px;
+}
+
+#searchinput {
+	outline:0;
+	color:white;
+	border-color:white;
+	border-style: solid;
+	border-radius: 10px;
+	padding:5px;
+	font-family:Arial;
+	font-size:16px;
+	background-color: transparent;
+	margin-right:0px;
+	width:150px;
+}
+
+
+/* :: is used to modify pseudo elements like placeholders for form inputs, like ::first-line being a pseudo-element which describes the first line of a text*/
+::placeholder { 
+	color:white;
+	opacity:0.4;
+	text-align:center;
+}
+
+/*change placeholder property only for the id input*/
+#input::placeholder{ 
+	color:black;
+	opacity:0.3;
+	text-align:center;
+}
+
+
+.profileTitle {
+	font-family: Courier;
+	font-size: 40px;
+}
+
+
+.topbtn {
+	float: right;
+	background-color: #656565;
+	border-color:#656565;
+	border-radius: 10px;
+	padding: 5px;
+	padding-bottom:3px; /*looks better for some unknown reason*/
+	border-style: solid;
+	font-family: Arial ;
+	font-size: 15px;
+    text-decoration: none; /*You don't want Logout to change colour after your click it */
+    color: white; 
+}
+
+.topbtn:hover {
+	background-color: #757575;
+	border-color: #757575; 
+}
+
+.message {
+	top:-5px; /* this and position:relative is used to change position of something INSIDE a HTML line without changing other things. THIS WAS EXTREMELY HARD TO FIND. THIS IS LITERALLY THE ONLY WAY TO MAKE THIS WORK. */
+	position:relative;
+	margin-left:5px;
+	background-color: #656565;
+	border-color:#656565;
+	border-radius: 5px;
+	padding: 0px;
+	padding-right:4px;
+	border-style: solid;
+	font-family: Arial ;
+	font-size: 15px;
+    text-decoration: none; /*You don't want Logout to change colour after your click it */
+    color: white; 
+}
+
+.message:hover {
+	background-color: #757575;
+	border-color: #757575; 
+}
+
+
+.submitbtn {
+	font-weight: bold;
+	background-color: #656565;
+	border-color:#656565;
+	border-radius: 10px;
+	padding: 5px;
+	padding-bottom:3px; /*looks better for some unknown reason*/
+	border-style: solid;
+	font-family: Arial ;
+	font-size: 15px;
+    text-decoration: none; /*You don't want Logout to change colour after your click it */
+    color: white; 
+}
+
+.submitbtn:hover {
+	background-color: #757575;
+	border-color: #757575; 
+}
+
+.postbtn {
+	font-family: Arial;
+	padding: 5px;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-top: 20px;
+	background-color: #A0A0A0;
+	font-weight:bold;
+	border-style:none;
+	color:#505050;
+	border-radius: 10px;
+	font-size:18;
+	outline:0;
+}
+
+/*when hovering*/
+.postbtn:hover { 
+	background-color: #808080;
+	color:#303030;
+}
+
+/* the discussion space */
+.speech{
+	background-color:white;
+	color:black;
+	max-width:100%;
+	margin:10px 25px 25px 25px;
+	overflow-y:scroll;
+	padding:10px;
+}
+
+.login-box{
+	max-width: 700px;
+	float:none;
+	margin: auto;
+	/*margin: 300px;*/
+}
+
+.login-left{
+	background: rgba(211,211,211,0.7);
+	padding:30px; /*space around the element*/
+	
+}
+
+.login-right{
+	background:#fff;
+	padding:30px; 
+	color: grey; /*overrides bootstrap color which is dark grey */
+}
+
+.btn-primary {
+    background-color: #909090 !important; /*Overrides bootstrap's class. Found these properties going on the link of bootstrap cdn and control+f ".btn-primary" */
+	border-color:Gainsboro !important;
+	font-weight:bold !important;
+}
+
+.btn-primary:hover {
+	background-color: #707070 !important;
+}
+
+.searchedData {
+	text-decoration:none;
+	color:white;
+	text-transform:capitalize;
+	display: inline-block;
+	margin:15px;
+	padding:5px;
+	border:solid;
+	font-family:Courier;
+}
+
+.searchedData:hover {
+	color: #606060;
+}
+
+
