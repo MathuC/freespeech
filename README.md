@@ -15,7 +15,7 @@ to try it out.
 
 
 ## Components
-**Most files were never uploaded here (30 files in total and only 10 files here) since a lot of the files are used to encrypt/decrypt messages and also hash and encrypt the passwords which aren't appropriate to publish online. **
+** Most files were never uploaded here (30 files in total and only 10 files here) since a lot of the files are used to encrypt/decrypt messages and also hash and encrypt the passwords which aren't appropriate to publish online. **
 
 `login.php` is the login/registration page.
 
@@ -25,7 +25,7 @@ to try it out.
 
 `notification.php` is the page where users can see the other users with which they started conversations and the number of unseen messages
 
-`profile.php is the page that generates profiles of other users but also the user's profile
+`profile.php` is the page that generates profiles of other users but also the user's profile
 
 `edit.php` is the page the the user uses to edit their profile page
 
@@ -55,7 +55,7 @@ Finished implementing the encryption of messages.
 Finished implementing the decryption of messages. 
 
 21/08/2020
-Used AJAX to make it so that when a user posts a message, it uses AJAX to update the page while also updating the database with the twice encrypted message instead of encrypting the messages twice and sending it to the database and then **reloading** the page.
+Used AJAX to make it so that when a user posts a message, it uses AJAX to update the page while also updating the database with the twice encrypted message instead of encrypting the messages twice and sending it to the database and then ** reloading ** the page.
 
 21/08/2020
 Made error pages and about pages.
@@ -64,7 +64,7 @@ Made error pages and about pages.
 Fixed some bugs regarding the encryption of the message
 
 22/08/2020
-I was storing the HEK as a session variable which is destroyed when the browser is closed (or so I thought). Then, I started doubting this method, since the session variable is easily accessible through the server. If the HEK is accessible through the server for the **whole** time the user is online, it might not be a very secure way to temporarily store it. I could easily log in to see who is online, then go in the server and retrieve the HEK. I wouldn't do that, but the user doesn't have to trust me and it would defeat the whole purpose of having an HEK if it was not securily stored somewhere only they can access. I searched online for different local storage methods and stumbled accross sessionStorage and localStorage variables. sessionStorage variables are stored on the user's browser and are destroyed when they close the **tab**. It was so secure, so I spent an hour changing the code so that the HEK is stored locally on the user's machine, where I have 0 access. This was extremely secure and user-friendly and I was very happy with this solution
+I was storing the HEK as a session variable which is destroyed when the browser is closed (or so I thought). Then, I started doubting this method, since the session variable is easily accessible through the server. If the HEK is accessible through the server for the ** whole ** time the user is online, it might not be a very secure way to temporarily store it. I could easily log in to see who is online, then go in the server and retrieve the HEK. I wouldn't do that, but the user doesn't have to trust me and it would defeat the whole purpose of having an HEK if it was not securily stored somewhere only they can access. I searched online for different local storage methods and stumbled accross sessionStorage and localStorage variables. sessionStorage variables are stored on the user's browser and are destroyed when they close the ** tab **. It was so secure, so I spent an hour changing the code so that the HEK is stored locally on the user's machine, where I have 0 access. This was extremely secure and user-friendly and I was very happy with this solution
 
 22/08/2020
 I finished the notification.php page which lists all the user which you have a ongoing conversation with and the number of unseen messages which is done with javascript functions that parses the JSON data returned by the php script and counts the number of unseen messages for each user.
