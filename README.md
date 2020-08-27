@@ -36,7 +36,7 @@ _Most files were never uploaded here (30 files in total and only 10 files here) 
 
 ## Big Changes
 
-#### 9/08/2020
+### 9/08/2020
 I made a log in and sign up page just to try out the bootstrap CSS framework. It was messy but I didn't really have the idea for FreeSpeech yet.
 
 #### 14/08/2020
