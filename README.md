@@ -83,6 +83,9 @@ I added AJAX calls every 500ms on every page that checks if there are any new me
 #### 26/08/2020
 I made a python script to change database information with the press of a button instead of manually changing the database information on around 30 different files everytime I made a modification to the website on my local server and needed to upload the files online.
 
+#### 1/09/2020
+I made WorldChat available to guests on the LOGIN/REGISTER page so they get a preview of the website which gives a little more incentive to register/login to see "MORE".
+
 
 ## Conclusion
 This website uses around 30 different files with each around 75-150 lines. That's around 3,000 lines of code which is a lot compared to other projects I've done. The thing that I am happy about is that it is a very useful website and it taught me A LOT on javascript, AJAX, CSS, PHP, Mysql, sessions, session variables, cookies and web storage objects like localStorage and sessionStorage variables.
