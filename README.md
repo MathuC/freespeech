@@ -86,6 +86,8 @@ I made a python script to change database information with the press of a button
 #### 1/09/2020
 I made WorldChat available to guests on the LOGIN/REGISTER page so they get a preview of the website which gives a little more incentive to register/login to see "MORE".
 
+#### 26/09/2020
+I also encrypted the worldchat messages before adding them to the database to add another layer of security, but mainly so that emojis work for any server and that I don't need to add different code for different type of servers for them to work (relating to utf8 and utf8mb4 encoding). This feature seems redundant but makes the process of moving this website from one server to another a lot more easier.
 
 ## Conclusion
 This website uses around 30 different files with each around 75-150 lines. That's around 3,000 lines of code which is a lot compared to other projects I've done. The thing that I am happy about is that it is a very useful website and it taught me A LOT on javascript, AJAX, CSS, PHP, Mysql, sessions, session variables, cookies and web storage objects like localStorage and sessionStorage variables.
