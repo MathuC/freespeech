@@ -7,11 +7,7 @@ There is also a feature in the homepage called WorldChat which is like a groupch
 
 All the logos/images/audios were made by me (drawn or made usig liscenced software).
 
-Go to 
-```
-mathusan.net/FreeSpeech/login.php
-``` 
-to try it out.
+Try it out here: [FreeSpeech](https://mathusan.net/FreeSpeech/login.php)
 
 
 ## Components
