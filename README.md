@@ -64,17 +64,14 @@ I was storing the HEK as a session variable which is destroyed when the browser 
 Furthermore, new browsers like the new version of Chrome stopped destroying sessions even after you close the browser, which means that the session variables aren't destroyed either. So, it is possible your key is saved on the server for a very long time even after you close the browser which makes using session variable an extremely bad idea.\
 I searched online for different local storage methods and stumbled accross sessionStorage and localStorage variables. sessionStorage variables are stored on the user's browser and are destroyed when they close the __tab__. It was so secure, so I spent an hour changing the code so that the HEK is stored locally on the user's machine, where I have 0 access. This was extremely secure and user-friendly and I was very happy with this solution.
 
-
 #### 22/08/2020
 I finished the notification.php page which lists all the user which you have a ongoing conversation with and the number of unseen messages which is done with javascript functions that parses the JSON data returned by the php script and counts the number of unseen messages for each user.
-
 
 #### 25/08/2020
 Fixed some bugs concerning users who open a new tab while a session is active which destroys the sessionStorage HEK, so when they do that and then try to view or post message, it logs them out automatically and sends them to an error page explaining what just happened and that letting them do that might cause security breaches. I added javascript lines but also server-side lines so that even if the javascript is modified, it still does the same thing.
 
 #### 26/08/2020
 I added AJAX calls every 500ms on every page that checks if there are any new messages where the user is the receiver and when they do, a little number appears next to the `message` button (in the top of the page) that indicates how many unread messages the user has and this is also accompanied with a little alert sound like in most social media apps.
-
 
 #### 26/08/2020
 I made a python script to change database information with the press of a button instead of manually changing the database information on around 30 different files everytime I made a modification to the website on my local server and needed to upload the files online.
@@ -84,10 +81,3 @@ I made WorldChat available to guests on the LOGIN/REGISTER page so they get a pr
 
 #### 26/09/2020
 I also encrypted the worldchat messages before adding them to the database to add another layer of security, but mainly so that emojis work for any server and that I don't need to add different code for different type of servers for them to work (relating to utf8 and utf8mb4 encoding). This feature seems redundant but makes the process of moving this website from one server to another a lot more easier.
-
-## Conclusion
-This website uses around 30 different files with each around 75-150 lines. That's around 3,000 lines of code which is a lot compared to other projects I've done. The thing that I am happy about is that it is a very useful website and it taught me A LOT on javascript, AJAX, CSS, PHP, Mysql, sessions, session variables, cookies and web storage objects like localStorage and sessionStorage variables.
-If you want to learn more about how the encryption of messages and passwords work, you can visit 
-```
-mathusan.net/FreeSpeech/about.html
-``` 
