@@ -4,7 +4,7 @@
 
 There is also a feature in the homepage called WorldChat which is like a groupchat for the world where every users can interact with each other instantly. Those messages are not encrypted since any user that is registered can accesss those.
 
-All the logos/images/audios were made by me (drawn or made usig liscenced software).
+All the logos/images/audios were made by me.
 
 
 
