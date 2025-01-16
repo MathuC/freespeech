@@ -1,13 +1,7 @@
 # FreeSpeech
-
-[FreeSpeech](https://mathusan.net/FreeSpeech/login.php) is an instant messaging system with double encryption. Only the sender and the recipient have the power to decrypt a message. Even we don't have the power to decrypt your messages or ever know your password. It is also very user friendly since everything is done in the background. The encryption/decryption key (Hash Encryption Key: HEK) is stored inside the user's browser (unlike session variables or cookies which the server has access to) until they close the tab so it is very secure and even we don't have access to the HEK.
-
-There is also a feature in the homepage called WorldChat which is like a groupchat for the world where every users can interact with each other instantly. Those messages are not encrypted since anyone can accesss those.
-
-All the logos/images/audios were made by me.
-
-
-
+[FreeSpeech](https://mathusan.net/FreeSpeech/login.php) is an instant messaging system with double encryption. It is user friendly since all encryption and decryption is seamlessly done in the background. Only the sender and the recipient have the power to decrypt a message, the server can't decrypt users' messages. The encryption/decryption key (Hash Encryption Key: HEK) is stored in the cient's browser using the sessionStorage feature (unlike session variables or cookies which the server has access to) until they close the tab.
+There is also a feature in the homepage called WorldChat which is like a groupchat for the world.
+All images, and audio assets in this project were created by the author.
 
 ## Components
 _Most files aren't uploaded here since a lot of the files are used to encrypt/decrypt messages and also hash and encrypt the passwords which aren't appropriate to publish online._
