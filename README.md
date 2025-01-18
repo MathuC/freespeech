@@ -1,5 +1,5 @@
 # FreeSpeech
-[FreeSpeech](https://mathusan.net/FreeSpeech/login.php) is an instant messaging system with double encryption. It is user friendly since all encryption and decryption is seamlessly done in the background. Only the sender and the recipient have the power to decrypt a message, the server can't decrypt users' messages. The encryption/decryption key (Hash Encryption Key: HEK) is stored in the cient's browser using the sessionStorage feature (unlike session variables or cookies which the server has access to) until they close the tab.
+[FreeSpeech](https://mathusan.net/FreeSpeech/login.php) is an Instant Messaging System with Double AES-256 encryption that I designed and built from scratch. It is user friendly since all encryption and decryption is seamlessly done in the background. Only the sender and the recipient have the power to decrypt a message, the server can't decrypt users' messages. The encryption/decryption key (Hash Encryption Key: HEK) is stored in the cient's browser using the sessionStorage feature (unlike session variables or cookies which the server has access to) until they close the tab.
 
 There is also a feature in the homepage called WorldChat which is like a groupchat for the world.
 
